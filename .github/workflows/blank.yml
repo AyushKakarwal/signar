@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aayush | Pay Form</title>
+  <link rel="stylesheet" href="../PayForm/FmStyle.css">
+  <link rel="stylesheet" href="../PayForm/PayForRes.css">
+</head>
+
+<body>
+  <div class="card" style="margin: 20px;">
+    <div class="container">
+      <form action="">
+        <h2 class="main_heading">Payment Form</h2>
+        <hr>
+        <h3>Contact Info</h3>
+        <p>Name: * <input type="text" name="name" required placeholder="Aayush Kakarwal"></p>
+        <fieldset>
+          <legend>Gender * </legend>
+          <p>
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" required>
+          </p>
+        </fieldset>
+        <p>
+          Address:
+          <textarea name="address" id="address" cols="150" rows="5" placeholder="Enter Your Address Here"></textarea>
+        </p>
+        <p>Email:* <input type="email" name="email" id="email" required placeholder="example@email.com"></p>
+        <p>Password: <input type="password" name="password" id="password" placeholder="Q@hw#eu1FQvW74"></p>
+        <p>Pincode: <input type="number" name="Pincode" id="Pincode"></p>
+        <h3>Pay Info</h3>
+        <p>Card Type
+          <select name="Card_Type" id="Card_Type">
+            <option value="">--Select a Card Type--</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Mastercard">MasterCard</option>
+            <option value="Other">Other Card</option>
+          </select>
+        </p>
+        <p>
+          Card Number: <input type="number" name="Card_Number" id="Card_Number" placeholder="XXXX-XXXX-XXXX-XXXX">
+        </p>
+        <p>
+          Expiration Date: <input type="date" name="Expiration_Date" id="Expiration_Date ">
+        </p>
+        <p>
+          CVV: <input type="password" name="CVV" id="CVV">
+        </p>
+        <input type="submit" value="Pay Now">
+        <input type="reset" value="Reset"> </form>
+    </div>
+  </div>
+
+    <h4 style="color: darkred;">*Means Required</h4>
+    <footer>
+      <a href="Home.html">Home&nbsp;Page</a>
+      <a href="Index.html">Index</a>
+      <a href="Page2.html">Page 2</a>
+    </footer>
+</body>
+
+</html>
